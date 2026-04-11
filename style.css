@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/04/2026, 04:07:23 م
+    Author     : hp
+*/
+
+
+#center-panel {
+    -fx-background-color: #f4f7f6;
+    -fx-border-color: #d1d8e0;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+
+#main-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 10px;
+}
+
+#save-btn {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+#save-btn:hover {
+    -fx-background-color: #2980b9;
+}
+
+
+.text-field, .combo-box, .list-view {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
